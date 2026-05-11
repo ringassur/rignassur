@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assurance de Prêt | RingAssur Pro</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💍</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="insurance-landing">
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header class="navbar scrolled">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="RingAssur Pro" class="logo-img">
+            </a>
+
+            <nav class="nav-menu">
+                <div class="mobile-menu-header">
+                    <span class="mobile-logo">RingAssur</span>
+                    <button class="mobile-close-btn"><i class="fas fa-times"></i></button>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="index.html#home" class="nav-link">Accueil</a></li>
+                    <li><a href="index.html#about" class="nav-link">A propos</a></li>
+                    <li class="dropdown">
+                        <a href="#assurances" class="nav-link">Nos Assurances <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="auto.html">Assurance Auto</a>
+                            <a href="moto.html">Assurance Moto</a>
+                            <a href="habitation.html">Assurance Habitation</a>
+                            <a href="vtc.html">Assurance VTC</a>
+                            <a href="decennale.html">RC Decennale</a>
+                            <a href="pret.html">Assurance de pret</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#mutuelles" class="nav-link">Nos Mutuelles <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="sante.html">Mutuelle Sante</a>
+                            <a href="sante-senior.html">Mutuelle Senior</a>
+                            <a href="sante-tns.html">Mutuelle TNS</a>
+                            <a href="animaux.html">Assurance Animaux</a>
+                            <a href="quote.html?type=prevoyance">Prevoyance</a>
+                        </div>
+                    </li>
+                    <li><a href="index.html#blog" class="nav-link">Blogs</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contactez-nous</a></li>
+                </ul>
+                <div class="mobile-menu-footer">
+                    <a href="mailto:contact@ringassur.fr">contact@ringassur.fr</a>
+                    <a href="tel:0985405539">09 85 40 55 39</a>
+                </div>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="landing-hero-split">
+        <div class="landing-bg" style="background-image: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1800');">
+            <div class="landing-overlay"></div>
+            <div class="landing-content">
+                <h1>Assurance de pret : <br><span class="text-gradient">proteger votre credit immobilier</span></h1>
+                <p>Comparez les garanties emprunteur et reduisez le cout total de votre pret en quelques minutes.</p>
+            </div>
+        </div>
+
+        <div class="landing-form-side">
+            <div class="form-premium-card">
+                <div class="form-header">
+                    <h3>Votre devis assurance de pret</h3>
+                    <p>Simple, rapide et sans engagement</p>
+                </div>
+                <form class="demande-form" data-service="Assurance de Prêt">
+                    <input type="hidden" name="type" value="pret">
+                    <div class="form-grid-landing">
+                        <div class="form-group">
+                            <input type="text" name="nom" placeholder="Nom *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="prenom" placeholder="Prenom *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email *" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="telephone" placeholder="Telephone *" required>
+                        </div>
+                        <div class="form-group full">
+                            <input type="date" name="date_naissance" required>
+                        </div>
+                        <div class="form-group full">
+                            <input type="text" name="code_postal" placeholder="Code Postal" inputmode="numeric">
+                        </div>
+                        <div class="form-group full">
+                            <select name="type_assurance" required>
+                                <option value="" disabled selected>Choisissez votre type d'assurance...</option>
+                                <option value="immobilier">Pret immobilier</option>
+                                <option value="consommation">Pret consommation</option>
+                                <option value="professionnel">Pret professionnel</option>
+                                <option value="rachat">Rachat de credit</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="checkbox-landing">
+                        <input type="checkbox" id="cgu-pret" name="cgu" required checked>
+                        <label for="cgu-pret">J'accepte les CGU et la confidentialite.</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Je souhaite etre rappele(e)</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <section class="landing-info-section">
+        <div class="container">
+            <div class="landing-info-box">
+                <h2>Assurance de pret : reduisez le cout total de votre credit</h2>
+                <p>L'assurance emprunteur represente une part importante du cout global d'un financement. En comparant les garanties deces, invalidite, incapacite et perte d'emploi, vous pouvez economiser significativement tout en gardant une protection solide. RingAssur vous aide a trouver le contrat le plus avantageux selon votre profil.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

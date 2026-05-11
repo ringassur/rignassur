@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RingAssur Pro | Comparateur d'Assurances Premium</title>
+    <meta name="description"
+        content="Comparez les meilleures assurances avec RingAssur Pro. Solutions d'assurance auto, habitation, santé et plus pour particuliers et professionnels.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💍</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo-removebg-preview.png" alt="RingAssur Pro" class="logo-img">
+            </a>
+
+            <nav class="nav-menu">
+                <div class="mobile-menu-header">
+                    <span class="mobile-logo">Ringassur</span>
+                    <button class="mobile-close-btn"><i class="fas fa-times"></i></button>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Accueil</a></li>
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li class="dropdown">
+                        <a href="#assurances" class="nav-link">Nos Assurances <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="auto.html">Assurance Auto</a>
+                            <a href="moto.html">Assurance Moto</a>
+                            <a href="habitation.html">Assurance Habitation</a>
+                            <a href="vtc.html">Assurance VTC</a>
+                            <a href="decennale.html">RC Décennale</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#mutuelles" class="nav-link">Nos Mutuelles <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="sante.html">Mutuelle Santé</a>
+                            <a href="sante-senior.html">Mutuelle Senior</a>
+                            <a href="sante-tns.html">Mutuelle TNS</a>
+                            <a href="animaux.html">Assurance Animaux</a>
+                            <a href="quote.html?type=prevoyance">Prévoyance</a>
+                        </div>
+                    </li>
+                    <li><a href="#blog" class="nav-link">Blogs</a></li>
+                    <li><a href="#contact" class="nav-link">Contactez-nous</a></li>
+                </ul>
+                <div class="mobile-menu-footer">
+                    <a href="mailto:contact@ringassur.fr">contact@ringassur.fr</a>
+                    <a href="tel:0985405539">09 85 40 55 39</a>
+                </div>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="tel:0985405539" class="btn-phone-header">
+                    <i class="fas fa-phone-alt"></i> 09 85 40 55 39
+                </a>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg-slider" id="hero-bg-slider" aria-hidden="true">
+                <div class="hero-bg-slide is-active"></div>
+                <div class="hero-bg-slide"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content" data-reveal="bottom">
+                    <h1 class="hero-title"><span class="mobile-only-title">Ringassur</span><span
+                            class="desktop-only-title">Comparez les meilleures assurances <br><span
+                                class="text-gradient">en quelques clics</span></span></h1>
+                    <p class="hero-desc">Comparez les différentes offres d'assurance en ligne pour trouver la meilleure
+                        couverture au meilleur prix.</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-hero-primary">Envoyez votre demande</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section class="partners">
+            <div class="container">
+                <div class="section-header-mini" data-reveal="bottom">
+                    <span class="partners-label">NOS PARTENAIRES</span>
+                </div>
+                <div class="partners-marquee">
+                    <div class="partners-track">
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/11.jpeg" alt="Partenaire 1">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/2.jpeg" alt="Partenaire 2">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/33.png" alt="Partenaire 3">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/4.jpeg" alt="Partenaire 4">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/55.png" alt="Partenaire 5">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/66.png" alt="Partenaire 6">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/77.png" alt="Partenaire 7">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/88.png" alt="Partenaire 8">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/99.png" alt="Partenaire 9">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/100.png"
+                                alt="Partenaire 10"></div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/111.png"
+                                alt="Partenaire 11"></div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/1.jpeg" alt="Partenaire 1">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/2.jpeg" alt="Partenaire 2">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/3.jpeg" alt="Partenaire 3">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/4.jpeg" alt="Partenaire 4">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/5.jpeg" alt="Partenaire 5">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/6.jpeg" alt="Partenaire 6">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/7.jpeg" alt="Partenaire 7">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/8.jpeg" alt="Partenaire 8">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/9.jpeg" alt="Partenaire 9">
+                        </div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/10.jpeg"
+                                alt="Partenaire 10"></div>
+                        <div class="partner-logo"><img class="partner-logo-img" src="images/11.jpeg"
+                                alt="Partenaire 11"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="section-header" data-reveal="bottom">
+                    <h2 class="section-title">Nos Solutions d'Assurances</h2>
+                    <p class="section-subtitle">Découvrez une large gamme de produits sélectionnés parmi les meilleurs
+                        assureurs du marché.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-reveal="bottom">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3202/3202926.png" alt="Auto">
+                        </div>
+                        <h3>Assurance Auto</h3>
+                        <p>Protection complète pour votre véhicule avec des garanties sur-mesure.</p>
+                        <a href="auto.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="100">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3721/3721619.png" alt="Moto">
+                        </div>
+                        <h3>Assurance Moto</h3>
+                        <p>Roulez en toute sérénité avec nos offres spéciales deux-roues.</p>
+                        <a href="moto.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="200">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/619/619153.png" alt="Habitation">
+                        </div>
+                        <h3>Assurance Habitation</h3>
+                        <p>Sécurisez votre foyer et vos biens les plus précieux.</p>
+                        <a href="habitation.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Santé">
+                        </div>
+                        <h3>Mutuelle Santé</h3>
+                        <p>Une couverture santé optimale pour vous et votre famille.</p>
+                        <a href="sante.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="100">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3429/3429199.png" alt="VTC">
+                        </div>
+                        <h3>Assurance VTC</h3>
+                        <p>Solutions professionnelles adaptées aux chauffeurs VTC.</p>
+                        <a href="vtc.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="200">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/995/995016.png" alt="Décennale">
+                        </div>
+                        <h3>RC Décennale</h3>
+                        <p>Garanties obligatoires pour les professionnels du bâtiment.</p>
+                        <a href="decennale.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3474/3474360.png"
+                                alt="Ordinateur et telephone">
+                        </div>
+                        <h3>Équipements connectés</h3>
+                        <p>Assurez vos appareils high-tech contre le vol et la casse.</p>
+                        <a href="connectes.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="100">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Chien et chat">
+                        </div>
+                        <h3>Assurance Animaux</h3>
+                        <p>Parce que la santé de vos compagnons n'a pas de prix.</p>
+                        <a href="animaux.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="200">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2489/2489756.png" alt="Rachat">
+                        </div>
+                        <h3>Rachat de crédit</h3>
+                        <p>Optimisez vos mensualités avec nos solutions de rachat.</p>
+                        <a href="rachat-credit.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png" alt="Liasse de billets">
+                        </div>
+                        <h3>Regroupement crédit</h3>
+                        <p>Simplifiez la gestion de vos finances au quotidien.</p>
+                        <a href="regroupement-credit.html" class="btn-text">Découvrir <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="100">
+                        <div class="service-icon-new">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2845/2845938.png" alt="Prêt">
+                        </div>
+                        <h3>Assurance de prêt</h3>
+                        <p>Économisez sur votre assurance emprunteur immobilière.</p>
+                        <a href="pret.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card" data-reveal="bottom" data-delay="200">
+                        <div class="service-icon-new">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e8eefc'/%3E%3Cpath d='M18 52h28v-4H18v4zm4-6h20V25c0-6-4.5-11-10-11s-10 5-10 11v21z' fill='%2363748b'/%3E%3Crect x='29' y='30' width='6' height='12' rx='2' fill='%23f8fafc'/%3E%3Crect x='26' y='33' width='12' height='6' rx='2' fill='%23f8fafc'/%3E%3C/svg%3E"
+                                alt="Tombeau">
+                        </div>
+                        <h3>Obsèques</h3>
+                        <p>Prévoyez l'avenir pour protéger vos proches.</p>
+                        <a href="obseques.html" class="btn-text">Découvrir <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advantages Section -->
+        <section class="advantages-new section-padding">
+            <div class="container">
+                <div class="advantages-new-grid">
+                    <div class="advantages-image-side" data-reveal="left">
+                        <img src="images/assurance.jpg" alt="RingAssur Offre" class="expert-img">
+                    </div>
+                    <div class="advantages-content-side" data-reveal="right">
+                        <span class="mini-badge">L'OFFRE PARFAITE, BY RINGASSUR</span>
+                        <h2 class="section-title-small">Chez Ringassur, Obtenez votre devis en 3 min en quelques clics.
+                        </h2>
+
+                        <div class="advantage-item-new">
+                            <div class="advantage-icon-new">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2529/2529396.png" alt="Prix">
+                            </div>
+                            <div class="advantage-text-new">
+                                <h3>Meilleur prix</h3>
+                                <p>Cherchez-vous l'assurance la plus abordable ? Nous filtrons pour vous les offres aux
+                                    tarifs les plus compétitifs, sans compromis sur la qualité.</p>
+                            </div>
+                        </div>
+
+                        <div class="advantage-item-new">
+                            <div class="advantage-icon-new">
+                                <img src="images/icon-service-client.svg" alt="Service Client">
+                            </div>
+                            <div class="advantage-text-new">
+                                <h3>Meilleur service client</h3>
+                                <p>La relation client est primordiale. Découvrez les assureurs réputés pour leur
+                                    excellente prise en charge clientèle et leur réactivité.</p>
+                            </div>
+                        </div>
+
+                        <div class="advantage-item-new">
+                            <div class="advantage-icon-new">
+                                <img src="images/icon-garanties.svg" alt="Garanties">
+                            </div>
+                            <div class="advantage-text-new">
+                                <h3>Meilleures garanties</h3>
+                                <p>Nous analysons chaque contrat pour vous garantir une protection maximale avec le
+                                    moins d'exclusions possible.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works section-padding">
+            <div class="container">
+                <div class="section-header" data-reveal="bottom">
+                    <h2 class="section-title">Comment ça marche ?</h2>
+                    <p class="section-subtitle">Obtenez votre nouvelle assurance en seulement 3 étapes simples.</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item" data-reveal="left">
+                        <div class="timeline-number">1</div>
+                        <div class="timeline-content">
+                            <h3>Remplissez votre demande</h3>
+                            <p>Indiquez vos besoins via notre formulaire intelligent en moins de 2 minutes.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-reveal="right">
+                        <div class="timeline-number">2</div>
+                        <div class="timeline-content">
+                            <h3>Comparez les offres</h3>
+                            <p>Visualisez instantanément les meilleures propositions adaptées à votre profil.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-reveal="left">
+                        <div class="timeline-number">3</div>
+                        <div class="timeline-content">
+                            <h3>Choisissez votre assurance</h3>
+                            <p>Souscrivez en ligne en toute sécurité et recevez votre attestation immédiatement.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+
+
+        <!-- FAQ Section -->
+        <section class="faq section-padding">
+            <div class="container">
+                <div class="section-header" data-reveal="bottom">
+                    <h2 class="section-title">Foire Aux Questions</h2>
+                    <p class="section-subtitle">Tout ce que vous devez savoir sur nos services.</p>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-item" data-reveal="bottom">
+                        <div class="faq-question">
+                            <h3>Quels sont les différents types d’assurance ?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Il existe de nombreuses assurances : obligatoires (auto, habitation locataire, RC
+                                professionnelle) ou facultatives (santé, prévoyance, vie). RingAssur Pro vous aide à
+                                comparer toutes ces catégories pour trouver la meilleure protection.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-reveal="bottom">
+                        <div class="faq-question">
+                            <h3>Quelle est la meilleure assurance ?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>La "meilleure" assurance est celle qui offre le rapport garanties/prix le plus adapté à
+                                votre profil spécifique. Notre algorithme analyse vos besoins pour identifier l'offre la
+                                plus pertinente pour vous.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item" data-reveal="bottom">
+                        <div class="faq-question">
+                            <h3>Quels sont les éléments essentiels d’un contrat d’assurance ?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Les points clés à surveiller sont : les garanties incluses, les exclusions de garanties,
+                                le montant des franchises, les plafonds d'indemnisation et les délais de carence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand-block">
+                    <img src="images/logo.png" alt="RingAssur" class="footer-logo-img">
+                    <p>Obtenez votre devis et assurez vous immediatement avec le comparateur d'assurance RingAssur.fr
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Nos Assurances</h4>
+                    <ul>
+                        <li><a href="auto.html">Assurance Auto</a></li>
+                        <li><a href="moto.html">Assurance Moto</a></li>
+                        <li><a href="habitation.html">Assurance Habitation</a></li>
+                        <li><a href="decennale.html">Assurance RC Decennale</a></li>
+                        <li><a href="vtc.html">Assurance VTC</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Nos Mutuelles</h4>
+                    <ul>
+                        <li><a href="sante.html">Mutuelle Sante</a></li>
+                        <li><a href="sante-senior.html">Senior</a></li>
+                        <li><a href="animaux.html">Mutuelle Chiens-Chats</a></li>
+                        <li><a href="sante-tns.html">Mutuelle Sante TNS</a></li>
+                        <li><a href="quote.html?type=prevoyance">Prevoyance Sante</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contactez-nous</h4>
+                    <ul>
+                        <li>2 avenue du Blanchissage</li>
+                        <li>84000 AVIGNON</li>
+                        <li><a href="mailto:contact@ringassur.fr">contact@ringassur.fr</a></li>
+                        <li><a href="tel:0985405539">0985405539</a></li>
+                        <li>ORIAS: 22003282</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom-row">
+                <div class="footer-bottom-links">
+                    <a href="#home">Accueil</a>
+                    <a href="#about">A propos de RingAssur.fr</a>
+                    <a href="#">Mentions Legales</a>
+                    <a href="#contact">Contactez-nous</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#home" aria-label="Haut de page"><i class="fas fa-arrow-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
